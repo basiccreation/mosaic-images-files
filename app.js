@@ -39,7 +39,7 @@
       color: '#CCC',
       faces: 14,
       images: [
-        "images/tb01.jpg",
+        "images/01.jpg",
         "images/tb05.jpg",
         "images/tb09.jpg"
       ],
