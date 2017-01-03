@@ -9,6 +9,6 @@
     name: 'Azurite',
     price: 110.50,
     canPurchase: true,
-    soldOut: true
+    soldOut: false
   };
 })();
