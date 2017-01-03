@@ -4,13 +4,12 @@
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
 
   </head>
-  <body ng-controller="StoreController as store">
-    <div class="product row" ng-hide="store.products.soldOut">
+  <body class="container" ng-controller="StoreController as store">
+    <div class="product row" ng-repeat="product in store.products">
       <h3>
-        {{store.products.name}}
-        <em class="pull-right">${{store.products.price}}</em>
+        {{product.name}}
+        <em class="pull-right">{{product.price | currency }}</em>
       </h3>
-      <button ng-show="store.products.canPurchase">Add to Cart</button>
     </div>
    
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
