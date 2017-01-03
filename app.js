@@ -8,7 +8,7 @@
   var product = {
     name: 'Azurite',
     price: 110.50,
-    canPurchase: true,
-    soldOut: false
+    canPurchase: false,
+    soldOut: true
   };
 })();
