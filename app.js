@@ -2,10 +2,10 @@
   var app = angular.module('store', []);
 
   app.controller('StoreController', function(){
-    this.product = product;
+    this.products = products;
   });
 
-  var product = {
+  var products = {
     name: 'Azurite',
     price: 110.50,
     canPurchase: false,
