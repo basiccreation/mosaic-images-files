@@ -5,7 +5,7 @@
 
   </head>
   <body class="container" ng-controller="StoreController as store">
-    <div class="product row" ng-repeat="product in store.products">
+    <div class="product row" ng-repeat="product in store.product">
       <h3>
         {{product.name}}
         <em class="pull-right">{{product.price | currency }}</em>
