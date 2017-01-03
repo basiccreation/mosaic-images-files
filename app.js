@@ -16,8 +16,8 @@
       faces: 14,
       images: [
        // "images/01.jpg",
-      //  "images/05.jpg",
-       // "images/09.jpg"
+      //  "images/tb05.jpg",
+       // "images/tb09.jpg"
       ],
       reviews: [{
         stars: 5,
@@ -40,8 +40,8 @@
       faces: 14,
       images: [
         "images/01.jpg",
-        "images/05.jpg",
-        "images/09.jpg"
+        "images/tb05.jpg",
+        "images/tb09.jpg"
       ],
       reviews: [{
         stars: 5,
@@ -64,8 +64,8 @@
       faces: 12,
       images: [
         "images/01.jpg",
-        "images/03.jpg",
-        "images/04.jpg"
+        "images/tb03.jpg",
+        "images/tb04.jpg"
       ],
       reviews: [{
         stars: 3,
@@ -88,8 +88,8 @@
       faces: 6,
       images: [
         "images/06.jpg",
-        "images/07.jpg",
-        "images/10.jpg"
+        "images/tb07.jpg",
+        "images/tb10.jpg"
       ],
       reviews: [{
         stars: 1,
