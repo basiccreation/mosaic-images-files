@@ -3,10 +3,10 @@
 
 
   app.controller('StoreController', function(){
-    this.products = gems;
+    this.products = products;
   });
 
-  var gems = [
+  var products = [
     { name: 'Azurite', price: 110.50 },
     { name: 'Bloodstone', price: 22.90 },
     { name: 'Zircon', price: 1100 },
