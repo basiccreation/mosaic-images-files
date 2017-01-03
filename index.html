@@ -5,11 +5,19 @@
 
   </head>
   <body class="container" ng-controller="StoreController as store">
-    <div class="product row" ng-repeat="product in store.product">
-      <h3>
-        {{product.name}}
-        <em class="pull-right">{{product.price | currency }}</em>
-      </h3>
+    <!--  Products Container  -->
+    <div class="list-group">
+      <!--  Product Container  -->
+      <div class="list-group-item" ng-repeat="product in store.products">
+        <h3>
+          {{product.name}}
+          <em class="pull-right">{{product.price | currency}}</em>
+        </h3>
+        <!-- Image Gallery  -->
+        <div class="gallery">
+          <img ng-src="{{product.images[0]}}"/>
+        </div>
+      </div>
     </div>
    
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
