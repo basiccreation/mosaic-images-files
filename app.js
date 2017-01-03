@@ -7,6 +7,30 @@
   });
 
   var products = [{
+      name: 'Marsinite',
+      description: "This is a true gem coming to us directly from the Mars expedition. A must-have to the true rock collector",
+      shine: 8,
+      price: 110.50,
+      rarity: 7,
+      color: '#CCC',
+      faces: 14,
+      images: [
+       // "images/01.jpg",
+      //  "images/05.jpg",
+       // "images/09.jpg"
+      ],
+      reviews: [{
+        stars: 5,
+        body: "The ultimate gem!",
+        author: "sue@example.org",
+        createdOn: 1397490980837
+      }, {
+        stars: 1,
+        body: "This gem glows in the dark.",
+        author: "timo@example.org",
+        createdOn: 1397490980837
+      }]
+    },{
       name: 'Azurite',
       description: "Some gems have hidden qualities beyond their luster, beyond their shine... Azurite is one of those gems.",
       shine: 8,
