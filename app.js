@@ -6,6 +6,18 @@
     this.products = products;
   });
 
+  app.controller('TabController', function(){
+  this.tab = 1;
+
+  this.setTab = function(selectedTab){
+    this.tab = selectedTab;
+  };
+
+  this.isSet = function(givenTab){
+    return this.tab === givenTab;
+  };
+});
+  
   var products = [{
       name: 'Marsinite',
       description: "This is a true gem coming to us directly from the Mars expedition. A must-have to the true rock collector",
