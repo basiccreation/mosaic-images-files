@@ -25,6 +25,16 @@
   };
 });
   
+    app.controller('ReviewController', function(){
+    this.review = {};
+  
+    this.addReview = function(product){
+      product.reviews.push(this.review);
+      this.review ={};
+    };
+  
+  });
+  
   var products = [{
       name: 'Marsinite',
       description: "This is a true gem coming to us directly from the Mars expedition. A must-have to the true rock collector",
