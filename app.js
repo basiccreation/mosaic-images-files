@@ -46,6 +46,13 @@ app.controller("ReviewController", function(){
   });
   
   
+  app.directive('productSpecs', function(){
+    return {
+      restrict:"A",
+      templateUrl:'product-specs.html'
+    };
+  });
+
   
   var products = [{
       name: 'Marsinite',
