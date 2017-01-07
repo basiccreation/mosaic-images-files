@@ -37,6 +37,16 @@ app.controller("ReviewController", function(){
     };
   });
   
+  
+  app.directive('productDescription', function(){
+    return{
+      restrict: "E",
+      templateUrl:'product-description.html'
+    };
+  });
+  
+  
+  
   var products = [{
       name: 'Marsinite',
       description: "This is a true gem coming to us directly from the Mars expedition. A must-have to the true rock collector",
